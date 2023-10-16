@@ -1,0 +1,252 @@
+/* fonts */
+@import url(./fonts.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1450px;
+  margin: 0 auto;
+}
+/* Header */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+  font-family: "inter";
+  background-color: #fff;
+}
+.logo > a {
+  color: #000;
+  font-size: 36px;
+  font-weight: 700;
+}
+.navbar ul {
+  display: flex;
+  gap: 90px;
+  align-items: center;
+}
+.navbar ul a {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* hero */
+
+#hero {
+  padding: 63px 0 200px;
+  background: rgba(181, 217, 210, 0.36);
+}
+.hero {
+  display: flex;
+  gap: 64px;
+  align-items: end;
+}
+.hero-text-p {
+  padding-top: 200px;
+  font-family: "inter";
+  font-size: 26px;
+  font-weight: 500;
+}
+.hero-text h1 {
+  color: rgba(0, 0, 0, 0.83);
+  font-family: "poppins";
+  font-size: 56px;
+  font-weight: 600;
+}
+.hero-text p {
+  width: 375px;
+  font-family: "inter";
+  font-size: 26px;
+  font-weight: 500;
+}
+.btn {
+  margin-top: 50px;
+  padding: 20px 54px;
+  border-radius: 35px;
+  background: #2a7361;
+
+  color: #fff;
+  font-size: 26px;
+  font-family: "inter";
+  font-weight: 600;
+}
+.hero-img {
+  display: flex;
+  gap: 20px;
+  align-items: end;
+}
+.img_box:nth-child(1) {
+  position: relative;
+  top: 200px;
+}
+.img_box:nth-child(2) {
+  position: relative;
+  top: 200px;
+}
+
+/* Section 1 */
+#furniture {
+  padding: 100px 0 115px;
+  background: rgba(181, 217, 210, 0.36);
+  margin-top: 63px;
+}
+.furniture {
+  display: flex;
+  gap: 320px;
+}
+.hero-text h2 {
+  width: 412px;
+  color: #000;
+  font-family: "inter";
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+.furniture-text {
+  gap: 35px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.text_box {
+  display: flex;
+  gap: 15px;
+}
+.text_box-img {
+  width: 55px;
+  height: 45px;
+  background: #2a7361;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text_boxt h3 {
+  font-family: "inter";
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+}
+.text_boxt p {
+  margin-top: 15px;
+  font-family: "inter";
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 26px;
+  font-weight: 500;
+}
+
+/* Section 2 */
+
+#our {
+  margin-top: 100px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+#our h2 {
+  color: #000;
+
+  font-family: "poppins";
+  font-size: 56px;
+  font-weight: 600;
+}
+#our p {
+  color: rgba(0, 0, 0, 0.85);
+  min-width: 400px;
+  text-align: center;
+  font-family: "inter";
+  font-size: 26px;
+  font-weight: 500;
+}
+.our-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  padding-top: 56px;
+}
+.img-box:nth-child(1) {
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 2;
+}
+.img-box:nth-child(6) {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 2;
+}
+
+/*  Section 3 */
+
+#form {
+  margin-top: 110px;
+}
+.drob {
+  display: flex;
+  position: relative;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  background: #e4f1ef;
+  width: 1210px;
+  padding: 150px 150px 60px;
+}
+form > p {
+  font-family: "inter";
+  color: #000;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 35px;
+}
+label,
+input {
+  display: block;
+}
+label {
+  color: #000;
+  font-family: "inter";
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 30px;
+}
+input {
+  margin-top: 30px;
+  width: 687px;
+  padding: 32px 0;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fafffe;
+}
+textarea {
+  margin-top: 30px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fafffe;
+}
+.form-img {
+  position: absolute;
+  right: 220px;
+  top: 70px;
+}
+
+/* Footer */
+footer {
+  margin-top: 70px;
+  padding: 40px 0;
+  background-color: #e4f1ef;
+  text-align: center;
+}
+footer p {
+  color: #000;
+  font-family: "inter";
+  font-size: 32px;
+  font-weight: 600;
+}
